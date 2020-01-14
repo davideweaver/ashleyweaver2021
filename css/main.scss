@@ -3128,7 +3128,9 @@
 
 	.vjs-theme-sea {
 
-
+		.vjs-button:hover {
+  			background-color: rgba(0, 0, 0, 0.5);
+		}
 
 		.vjs-big-play-button {
 			background-color: rgba(0, 0, 0, 0.8);
