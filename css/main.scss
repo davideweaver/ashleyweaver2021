@@ -3217,3 +3217,15 @@
 		width: 100%;
 		height: 100%;
 	}
+
+	img.hudl {
+		width: 24px;
+		margin-bottom: -4px;
+	}
+
+	@media (max-width: 400px) {
+
+		img.hudl {
+			width: 28px;
+		}
+	}
