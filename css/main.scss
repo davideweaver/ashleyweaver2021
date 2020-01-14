@@ -2465,7 +2465,7 @@
 
 		.work-item h3 {
 			font-size: 1.5em;
-			margin: 15px 0 0.5em 0;
+			margin: 15px 0 0 0;
 		}
 
 		.work-item p {
@@ -3128,11 +3128,14 @@
 
 	.vjs-theme-sea {
 
-		.vjs-button:hover {
-  			background-color: rgba(0, 0, 0, 0.5);
-		}
-
 		.vjs-big-play-button {
 			background-color: rgba(0, 0, 0, 0.8);
+		}
+	}
+
+	.vjs-theme-sea:hover {
+
+		.vjs-big-play-butto {
+  			background-color: rgba(0, 0, 0, 0.5);
 		}
 	}
