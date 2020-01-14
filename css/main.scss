@@ -3106,11 +3106,11 @@
 		/* Header */
 
 			#header {
-				padding: 4.5em 1.5em;
-				border-bottom: 1px solid #efefef;
+				padding: 4.5em 1.5em 0;
+				border-bottom: 0px solid #efefef;
 			}
 
-				#header h1 br {
+				#header h1 {
 					display: none;
 				}
 
