@@ -3150,7 +3150,6 @@
 
 	@media (min-width: 768px) {
 		.stat-row {
-			width:500px;
 			-webkit-box-pack: start;
 			-ms-flex-pack: start;
 			justify-content: flex-start
@@ -3165,17 +3164,18 @@
 	.general-stat {
 		-ms-flex-negative: 0;
 		flex-shrink: 0;
-		min-width: 100px;
+		min-width: 165px;
 		margin-bottom: 25px;
 		margin-right: 15px;
 		max-width: 170px
 	}
 
 	.general-stat .title {
-		color: #595959;
+		color: #000;
 		text-transform: uppercase;
 		font-family: "open-sans-condensed-bold", sans-serif;
-		font-size: 14px
+		font-size: 14px;
+		font-weight: bold;
 	}
 
 	.general-stat .value {
