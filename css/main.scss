@@ -3133,9 +3133,6 @@
 		}
 	}
 
-	.video-js:hover {
-
-		.vjs-big-play-button {
-  			background-color: rgba(0, 0, 0, 0.5);
-		}
+	.video-js .vjs-big-play-button:focus,.video-js:hover .vjs-big-play-button {
+		background-color: rgba(0, 0, 0, 0.5);
 	}
