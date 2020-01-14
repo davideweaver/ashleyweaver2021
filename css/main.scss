@@ -3136,3 +3136,162 @@
 	.video-js .vjs-big-play-button:focus,.video-js:hover .vjs-big-play-button {
 		background-color: rgba(0, 0, 0, 0.8);
 	}
+
+	.athlete-profile-page .stat-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+@media (min-width: 768px) {
+    .athlete-profile-page .stat-row {
+        width:500px;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+}
+
+.athlete-profile-page .stat-row .general-stat {
+    width: 115px;
+    margin-right: 10px
+}
+
+.athlete-profile-page .stats-container {
+    background-color: #1a1e1a;
+    min-height: 100px
+}
+
+@media (min-width: 768px) {
+    .athlete-profile-page .stats-container {
+        display:-webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+.athlete-profile-page .stats-container .player-subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 30px
+}
+
+@media (min-width: 768px) {
+    .athlete-profile-page .stats-container .player-subtitle {
+        min-height:50px
+    }
+}
+
+.athlete-profile-page .stats-container .player-subtitle .slash {
+    height: 30px;
+    width: 15px;
+    background-image: url(/assets/app/athlete_profile/slash-1c0313514c341e6e743cf932df7116ce838cacfb2ec05170819bebe41b86f185.svg);
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+@media (min-width: 768px) {
+    .athlete-profile-page .stats-container .player-subtitle .slash {
+        width:20px;
+        height: 50px
+    }
+}
+
+.athlete-profile-page .stats-container .player-subtitle .position-and-school {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 5px;
+    color: #ffffff
+}
+
+@media (min-width: 768px) {
+    .athlete-profile-page .stats-container .player-subtitle .position-and-school {
+        height:50px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin-left: 15px
+    }
+}
+
+.athlete-profile-page .stats-container .player-subtitle .position-and-school .position-text {
+    font-size: 18px
+}
+
+@media (min-width: 768px) {
+    .athlete-profile-page .stats-container .player-subtitle .position-and-school .position-text {
+        font-size:22px
+    }
+}
+
+.athlete-profile-page .stats-container .player-subtitle .position-and-school .desktop-school-text {
+    display: none
+}
+
+@media (min-width: 768px) {
+    .athlete-profile-page .stats-container .player-subtitle .position-and-school .desktop-school-text {
+        display:initial;
+        opacity: 0.7
+    }
+}
+
+@media (min-width: 768px) {
+    .athlete-profile-page .stats-container .stats-list-container {
+        display:-webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end
+    }
+}
+
+.athlete-profile-page .stats-container .stats-list-container .stats-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 15px
+}
+
+@media (min-width: 768px) {
+    .athlete-profile-page .stats-container .stats-list-container .stats-list {
+        -webkit-box-pack:justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 350px;
+        margin-top: 45px
+    }
+}
+
+@media (min-width: 768px) {
+    .athlete-profile-page .stats-container .content-center.no-picture {
+        display:-webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .athlete-profile-page .stats-container .content-center.no-picture .stats-list-container .stats-list {
+        margin-top: 20px
+    }
+}
