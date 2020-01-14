@@ -3161,3 +3161,37 @@
 		width: 115px;
 		margin-right: 10px
 	}
+
+	.general-stat {
+		-ms-flex-negative: 0;
+		flex-shrink: 0;
+		min-width: 100px;
+		margin-bottom: 25px;
+		margin-right: 15px;
+		max-width: 170px
+	}
+
+	.general-stat .title {
+		color: #595959;
+		text-transform: uppercase;
+		font-family: "open-sans-condensed-bold", sans-serif;
+		font-size: 14px
+	}
+
+	.general-stat .value {
+		color: #595959;
+		font-family: "open-sans-light", sans-serif;
+		font-size: 14px
+	}
+
+	.general-stat.dark .title {
+		color: #ffffff
+	}
+
+	.general-stat.dark .value {
+		color: #25a8e5
+	}
+
+	.general-stat.big-values .value {
+		font-size: 25px
+	}
