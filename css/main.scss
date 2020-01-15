@@ -2466,8 +2466,10 @@
 		}
 
 		.work-item h3 {
-			font-size: 1.5em;
+			font-size: 1.3em;
 			margin: 15px 0 0 0;
+			line-height: 1.2em;
+			font-weight: bold;
 		}
 
 		.work-item p {
@@ -2993,20 +2995,6 @@
 
 	@media screen and (max-width: 736px) {
 
-		/* Basic */
-
-			h1 {
-				font-size: 1.5em;
-			}
-
-			h2 {
-				font-size: 1.2em;
-			}
-
-			h3 {
-				font-size: 1em;
-			}
-
 		/* Section/Article */
 
 			section.special, article.special {
@@ -3261,6 +3249,10 @@
 	i.menu {
 		color: #999;
 		float: right;
-		font-size: 21px;
-		margin-top: 1px;
+		font-size: 26px;
+		margin-top: 5px;
+	}
+
+	section > h2 {
+		text-transform: uppercase;
 	}
