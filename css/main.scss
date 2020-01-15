@@ -3074,7 +3074,7 @@
 		/* List */
 
 			ul.actions {
-				margin: 2em 0 2em 0;
+				margin: 3.2em 0 3.2em 0;
 			}
 
 				ul.actions li {
@@ -3256,4 +3256,11 @@
 			margin-left: 12px;
 			width: 100%;
 		}
+	}
+
+	i.icon.menu {
+		color: #999;
+		float: right;
+		font-size: 21px;
+		margin-top: 1px;
 	}
