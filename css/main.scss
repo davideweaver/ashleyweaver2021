@@ -1746,7 +1746,8 @@
 	}
 
 	header.major h2 {
-		font-size: 2em;
+		font-size: 36px;
+		margin-bottom: 2em;
 
 		b {
 			font-weight: 900;
@@ -2171,6 +2172,7 @@
 				display: inline-block;
 				padding: 0 1em 0 0;
 				vertical-align: middle;
+				font-size: 20px;
 			}
 
 				ul.actions li:last-child {
@@ -3012,7 +3014,7 @@
 			}
 
 			header.major h2 {
-				font-size: 1.35em;
+				font-size: 26px;
 			}
 
 		/* List */
@@ -3072,19 +3074,14 @@
 		/* List */
 
 			ul.actions {
-				margin: 0 0 2em 0;
+				margin: 2em 0 2em 0;
 			}
 
 				ul.actions li {
-					display: block;
-					padding: 1em 0 0 0;
+					padding: 0 10px 0 0;
 					text-align: center;
-					width: 100%;
+					line-height: 45px;
 				}
-
-					ul.actions li:first-child {
-						padding-top: 0;
-					}
 
 					ul.actions li > * {
 						margin: 0 !important;
@@ -3106,7 +3103,7 @@
 		/* Header */
 
 			#header {
-				padding: 4.5em 1.5em 0;
+				padding: 25px 1.5em 0;
 				border-bottom: 0px solid #efefef;
 			}
 
@@ -3227,5 +3224,36 @@
 
 		img.hudl {
 			width: 28px;
+		}
+	}
+
+	.announce {
+		font-size: 1.4em;
+		color: #000;
+		margin: 0 0 30px;
+		background-color: #efefef;
+		padding: 10px;
+
+		b {
+			font-weight: bolder;
+		}
+	}
+
+	#wrap>section.top {
+		border-top-width: 0;
+		padding-top: 0;
+	}
+
+	table.schedule {
+		margin-left: 40px;
+		width: 80%;
+		color: #000;
+	}
+
+	@media (max-width: 400px) {
+
+		table.schedule {
+			margin-left: 12px;
+			width: 100%;
 		}
 	}
