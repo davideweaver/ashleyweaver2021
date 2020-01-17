@@ -21,15 +21,17 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
     href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  (function (root) {
-  "use strict";
-  var h = root ? root.location.hostname : "",
-  p = root ? root.location.protocol : "";
-  if ("http:" === p && !(/^(localhost|127.0.0.1)/).test(h)) {
-  root.location.protocol = "https:";
-  }
-  }
-  ("undefined" !== typeof window ? window : this));
+  <script>
+    (function (root) {
+      "use strict";
+      var h = root ? root.location.hostname : "",
+        p = root ? root.location.protocol : "";
+      if ("http:" === p && !(/^(localhost|127.0.0.1)/).test(h)) {
+        root.location.protocol = "https:";
+      }
+    }
+      ("undefined" !== typeof window ? window : this));
+  </script>
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
