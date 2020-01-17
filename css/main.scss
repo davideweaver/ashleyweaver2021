@@ -3225,6 +3225,40 @@
 		b {
 			font-weight: bolder;
 		}
+
+		.title {
+			float: left;
+		}
+
+		.content {
+			margin-left: 160px;
+
+			b {
+				color: #000;
+				font-weight: bolder;
+			}
+
+			div {
+				color: #999;
+				font-size: 18px;
+				line-height: 20px;
+    			margin-top: 5px;
+			}
+		}
+	}
+
+	@media (max-width: 400px) {
+
+		.announce {
+
+			.title {
+				float: none;
+			}
+
+			.content {
+				margin-left: 0px;
+			}
+		}
 	}
 
 	#wrap>section.top {
