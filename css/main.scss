@@ -2470,6 +2470,17 @@
 			margin: 15px 0 0 0;
 			line-height: 1.2em;
 			font-weight: bold;
+
+			b {
+				font-family: "Courier";
+				font-size: 14px;
+				font-weight: 400;
+				margin-left: 5px;
+				color: #fff;
+				background-color: #666;
+				padding: 1px 4px;
+				border-radius: 4px;
+			}
 		}
 
 		.work-item p {
